@@ -47,7 +47,7 @@ function Child({ name, children, depth }) {
                 }
 
             </div> :
-            <div style={{ marginLeft: `${depth}px` }}>
+            <div style={{ margin: `10px ${depth}px` }}>
                 {name}
             </div>
         }

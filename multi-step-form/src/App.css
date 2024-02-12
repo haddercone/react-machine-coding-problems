@@ -1,0 +1,46 @@
+.container {
+    margin: auto;
+    margin: 0 20%;
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid black;
+}
+.input:focus {
+    border: 2px solid blue;
+}
+.navBtnWrapper {
+    display: flex;
+    gap: 1rem;
+}
+.button-container {
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.stepButton {
+    width: 50px;
+    cursor: pointer;
+    height: 50px;
+    outline: none;
+
+    border-radius: 50%;
+}
+.visited {
+    background-color: aqua;
+    border: 2px solid blue;
+}
